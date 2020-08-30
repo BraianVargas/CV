@@ -1,0 +1,16 @@
+.titulo{
+    position: absolute;
+    float: center;
+}
+h1{
+    animation: aparicion 1s ease-in infinite alternate;
+}
+
+@keyframes aparicion{
+    from{
+        font-size: 90%;
+    }
+    to{
+    font-size: 100%;
+    }
+}

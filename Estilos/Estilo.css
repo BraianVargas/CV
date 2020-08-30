@@ -1,0 +1,74 @@
+* {
+    margin: 0em;
+    padding: 0em;
+}
+
+h1 {
+    font-size: 90%;
+}
+
+.main {
+    display: static;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ddd2;
+}
+
+#Foto {
+    cursor: default;
+    margin-right: 5%;
+    width: 10em;
+    height: 10em;
+    display: block;
+    position: relative;
+    float: right;
+    background-color: hsla(0, 0%, 100%, 0);
+    max-width: 12em;
+    max-height: 12em;
+    min-width: 7em;
+    min-height: 7em;
+}
+
+img {
+    border-radius: 50%;
+    box-shadow: 5px;
+    max-width: 12em;
+    min-width: 7em;
+    max-height: 12em;
+    min-height: 7em;
+    -webkit-box-shadow: 13px 10px 20px 2px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 13px 10px 20px 2px rgba(0, 0, 0, 0.58);
+    box-shadow: 13px 10px 20px 2px rgba(0, 0, 0, 0.58);
+}
+
+figcaption {
+    padding: 2%;
+    background-color: rgba(15, 120, 240, 0.514);
+    display: block;
+    text-align: center;
+    font-size: 1.375rem;
+    -webkit-box-shadow: 13px 10px 20px 2px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 13px 10px 20px 2px rgba(0, 0, 0, 0.58);
+    box-shadow: 13px 10px 20px 2px rgba(0, 0, 0, 0.58);
+}
+
+.panel-heading {
+    background-color: rgb(155, 102, 38);
+}
+
+#seccion {
+    padding: 5%;
+    border-radius: 3%;
+    background-color: rgba(35, 9, 47, 0.849);
+}
+
+@media screen and (max-width:800px) {
+    .main {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:250px) {
+    .main {
+        width: 80%;
+    }
+}
